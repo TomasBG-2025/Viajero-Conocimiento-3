@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viajero del Conocimiento - Ciclo Andersen Rural</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🗺️ Viajero del Conocimiento</h1>
+            <p>Ciclo Interno del Conocimiento Tácito - Escuela Normal Santa Teresita de Sopetrán</p>
+        </header>
+
+        <div class="progress-bar">
+            <div class="progress" id="progress"></div>
+        </div>
+
+        <div class="journey-container" id="journey">
+            <!-- Las 6 fases se cargan dinámicamente -->
+        </div>
+
+        <div class="controls">
+            <button onclick="prevPhase()" id="prevBtn" disabled>⬅️ Anterior</button>
+            <button onclick="nextPhase()">Siguiente ➡️</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
